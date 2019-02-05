@@ -6,8 +6,8 @@ export default class About extends React.Component {
     return (
         <div className="transBack rounded">
             <br/>
-            <h1 className="text-black text-center">ABOUT US</h1>
-            <p className="color-black">  
+            <h1 className="text-black text-center font">ABOUT US</h1>
+            <p className="color-black font">  
             Second City Tennis (SCT) organizes tennis and related social activities serving the gay and lesbian community of Chicago. 
             We began our association with the Athletic Alliance of Chicago in 2013. SCT has been offering tennis programs since 1987, formed its first Board of Directors in 1998. 
             <br/><br/>

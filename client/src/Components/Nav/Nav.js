@@ -30,7 +30,13 @@ export default class Navigation extends React.Component {
                 <NavLink href="/courts">Find Tennis Courts</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://google.com">GitHub</NavLink>
+                <NavLink href="https://google.com">Sponsors & Partners</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://google.com">SCT By-Laws</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://google.com">Social Media</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
