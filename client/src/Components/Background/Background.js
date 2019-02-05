@@ -2,12 +2,7 @@ import React from 'react';
 import "./Background.css";
 
 export default class Background extends React.Component {
-  constructor(props) {
-    super(props);
-
-  }
-
-
+  
   render() {
     return (
       <div>

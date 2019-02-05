@@ -2,10 +2,6 @@ import React from 'react';
 import "./Headlines.css";
 
 export default class Headlines extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
         <div className="transBack rounded">

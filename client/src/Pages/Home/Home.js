@@ -4,7 +4,7 @@ import Headlines from "../../Components/Headlines/Headlines";
 import { Container } from 'reactstrap';
 import "./Home.css";
 
-const Example = (props) => {
+const Home = (props) => {
   return (
     <div className="container">
     <br/>
@@ -18,4 +18,4 @@ const Example = (props) => {
   );
 };
 
-export default Example;
+export default Home;

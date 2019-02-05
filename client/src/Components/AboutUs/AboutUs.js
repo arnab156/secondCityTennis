@@ -2,10 +2,6 @@ import React from 'react';
 import "./AboutUs.css";
 
 export default class About extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
         <div className="transBack rounded">
