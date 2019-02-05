@@ -1,0 +1,28 @@
+{
+  "name": "secondCityTennis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/arnab156/secondCityTennis.git",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && yarn install --production && yarn run build"
+  },
+  "keywords": [],
+  "author": "arnab majumdar",
+  
+  "bugs": {
+    "url": "https://github.com/arnab156/jamesstewart/issues"
+  },
+  "homepage": "https://github.com/arnab156/jamesstewart#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "engines": {
+    "npm": "6.4.1",
+    "node": "10.14.1",
+    "yarn": "1.12.3"
+  }
+}
