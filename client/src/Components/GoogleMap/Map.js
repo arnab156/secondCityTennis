@@ -98,10 +98,10 @@ const MapWithAMarkerClusterer = compose(
           labelStyle={{backgroundColor: "rgb(255,212,1)",opacity:"0.8", color:"rgb(0,38,75)", fontSize: "12px", padding: "1px"}}
         >
         <div>
-            Name:{marker.name}<br/>
-            Address:{marker.address}<br/>
-            Website:{marker.website}<br/>
-            Phone:{marker.phone}<br/>
+            {marker.name}<br/>
+            {marker.address}<br/>
+            {marker.website}<br/>
+            {marker.phone}<br/>
         </div>
         </MarkerWithLabel>
       ))}
@@ -133,7 +133,9 @@ export default class DemoApp extends React.PureComponent {
         { "photo_id": 3, "longitude": -87.639410,"latitude": 41.890730,"name":"East Bank Club", "address":"500 N Kingsbury St, Chicago, IL 60654","website":"http://www.eastbankclub.com/", "phone":"312-527-5800"},
         { "photo_id": 4, "longitude": -87.697990,"latitude": 41.950940,"name":"McFetridge Sports Center", "address":"3843 N California Ave, Chicago, IL 60618","website":"http://www.mcfetridgesportscenter.com", "phone":"773-478-2609"},
         { "photo_id": 5, "longitude": -87.791820,"latitude": 42.020580,"name":"TAM Tennis & Fitness", "address":"7686 N Caldwell Ave, Niles, IL 60714","website":"http://www.niles-parks.org", "phone":"847-967-6633"},
-        // { "photo_id": 2, "longitude": ,"latitude": 41.925809,"name":"Midtown Athletic Club", "address":"2444 N Elston Ave, Chicago, IL 60647","website":"http://www.lakeshoresf.com/", "phone":"773-235-2300"},
+        { "photo_id": 6, "longitude": -87.680370,"latitude": 42.070030,"name":"Northwestern University Courts", "address":"2300 Sheridan Rd, Evanston, IL 60201","website":"", "phone":""},
+        // { "photo_id": 6, "longitude": -87.680370,"latitude": 42.070030,"name":"Northwestern University Courts", "address":"2300 Sheridan Rd, Evanston, IL 60201","website":"", "phone":""},
+        // { "photo_id": 6, "longitude": -87.680370,"latitude": 42.070030,"name":"Northwestern University Courts", "address":"2300 Sheridan Rd, Evanston, IL 60201","website":"", "phone":""},
       ]
         
     });
