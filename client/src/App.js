@@ -5,6 +5,9 @@ import NoMatch from "./Pages/NoMatch/NoMatch";
 import Navigation from "./Components/Nav/Nav";
 import Background from "./Components/Background/Background";
 import Courts from "./Pages/TennisCourts/tennisCourts";
+import Sponsors from "./Pages/Sponsors/Sponsors";
+import ByLaws from "./Pages/ByLaws/ByLaws";
+import Social from "./Pages/Social/Social";
 import './App.css';
 
 const App = () => (
@@ -17,6 +20,9 @@ const App = () => (
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
         <Route exact path="/courts" component={Courts} />
+        <Route exact path="/sponsors" component={Sponsors} />
+        <Route exact path="/bylaws" component={ByLaws} />
+        <Route exact path="/social" component={Social} />
         <Route component={NoMatch} />
       </Switch>
     </div>

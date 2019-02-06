@@ -30,13 +30,13 @@ export default class Navigation extends React.Component {
                 <NavLink className="headFont" href="/courts">Find Tennis Courts</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="headFont" href="https://google.com">Sponsors & Partners</NavLink>
+                <NavLink className="headFont" href="/sponsors">Sponsors & Partners</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="headFont" href="https://google.com">SCT By-Laws</NavLink>
+                <NavLink className="headFont" href="/bylaws">SCT By-Laws</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="headFont" href="https://google.com">Social Media</NavLink>
+                <NavLink className="headFont" href="/social">Social Media</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
