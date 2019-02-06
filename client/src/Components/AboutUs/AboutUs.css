@@ -8,6 +8,14 @@
     opacity: 0.5
   }
 
-.font{
-    font-family: 'Poiret One', cursive, ;
+.transBack:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+transform: rotateY(-2deg) rotateX(2deg) scale(1.08);
+transition: transform 0.75s ease-out;
+mix-blend-mode: normal;
+opacity:0.85
 }  
+
+/* .headFont{
+    font-family: 'Alegreya Sans SC', sans-serif;
+}   */

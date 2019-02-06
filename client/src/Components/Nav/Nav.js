@@ -22,21 +22,21 @@ export default class Navigation extends React.Component {
       <div>
         <div className="footer">
         <Navbar color="faded" dark>
-          <NavbarBrand href="/" className="mr-auto">Second City Tennis</NavbarBrand>
+          <NavbarBrand href="/" className="mr-auto headFont">Second City Tennis</NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="/courts">Find Tennis Courts</NavLink>
+                <NavLink className="headFont" href="/courts">Find Tennis Courts</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://google.com">Sponsors & Partners</NavLink>
+                <NavLink className="headFont" href="https://google.com">Sponsors & Partners</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://google.com">SCT By-Laws</NavLink>
+                <NavLink className="headFont" href="https://google.com">SCT By-Laws</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://google.com">Social Media</NavLink>
+                <NavLink className="headFont" href="https://google.com">Social Media</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
