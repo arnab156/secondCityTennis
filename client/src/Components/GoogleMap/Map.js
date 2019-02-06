@@ -94,8 +94,8 @@ const MapWithAMarkerClusterer = compose(
         <MarkerWithLabel
           key={marker.photo_id}
           position={{ lat: marker.latitude, lng: marker.longitude }}
-          labelAnchor={(0, 0)}
-          labelStyle={{backgroundColor: "rgb(255,212,1)",opacity:"0.8", color:"rgb(0,38,75)", fontSize: "12px", padding: "1px"}}
+          labelAnchor={(1, 0)}
+          labelStyle={{backgroundColor: "rgb(255,212,1)",opacity:"0.8", color:"rgb(0,38,75)", fontSize: "8px", padding: "1px"}}
         >
         <div>
             {marker.name}<br/>
@@ -134,8 +134,8 @@ export default class DemoApp extends React.PureComponent {
         { "photo_id": 4, "longitude": -87.697990,"latitude": 41.950940,"name":"McFetridge Sports Center", "address":"3843 N California Ave, Chicago, IL 60618","website":"http://www.mcfetridgesportscenter.com", "phone":"773-478-2609"},
         { "photo_id": 5, "longitude": -87.791820,"latitude": 42.020580,"name":"TAM Tennis & Fitness", "address":"7686 N Caldwell Ave, Niles, IL 60714","website":"http://www.niles-parks.org", "phone":"847-967-6633"},
         { "photo_id": 6, "longitude": -87.680370,"latitude": 42.070030,"name":"Northwestern University Courts", "address":"2300 Sheridan Rd, Evanston, IL 60201","website":"", "phone":""},
-        // { "photo_id": 6, "longitude": -87.680370,"latitude": 42.070030,"name":"Northwestern University Courts", "address":"2300 Sheridan Rd, Evanston, IL 60201","website":"", "phone":""},
-        // { "photo_id": 6, "longitude": -87.680370,"latitude": 42.070030,"name":"Northwestern University Courts", "address":"2300 Sheridan Rd, Evanston, IL 60201","website":"", "phone":""},
+        { "photo_id": 7, "longitude": -87.831210,"latitude": 41.864514,"name":"UIC Flames Tennis Facility", "address":"901 Roosevelt Rd, Chicago, IL 60608","website":"uicflames.com", "phone":""},
+        { "photo_id": 8, "longitude": -87.716108,"latitude": 41.976636,"name":"NorthEastern University Courts", "address":"5250 N St Louis Ave, Chicago, IL 60625","website":"", "phone":""},
       ]
         
     });
