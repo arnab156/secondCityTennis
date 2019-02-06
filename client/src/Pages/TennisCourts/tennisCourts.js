@@ -7,7 +7,7 @@ const Courts = (props) => {
   return (
     <div className="container">
     <br/>
-    <Container className="tennisContainer">
+    <Container className="tennisContainer1">
       <br/>      
       <Jumbotron>
         <Map />
