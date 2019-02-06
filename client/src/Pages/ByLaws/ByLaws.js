@@ -1,12 +1,20 @@
 import React from 'react';
 import "./ByLaws.css";
+import { Container, Jumbotron } from 'reactstrap';
 
 export default class ByLaws extends React.Component {
   render() {
     return (
+      <div className="container">
+      <br/>
         <div className="transBack rounded">
-            kmenfkmdf
-        </div>
+         <br/>      
+      <Jumbotron>
+       bylaws
+      </Jumbotron>
+        <br/>
+          </div>
+      </div>
     );
   }
 }
