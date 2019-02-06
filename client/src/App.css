@@ -34,3 +34,7 @@
 .headFont{
   font-family: 'Alegreya Sans SC', sans-serif;
 } 
+.transBack{
+  background-color: rgb(255,212,1);
+  opacity: 0.5
+}
