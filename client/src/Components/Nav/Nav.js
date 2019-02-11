@@ -33,6 +33,9 @@ export default class Navigation extends React.Component {
                 <NavLink className="headFont" href="/sponsors">Sponsors & Partners</NavLink>
               </NavItem>
               <NavItem>
+                <NavLink className="headFont" href="/programs">Progams & Events</NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink className="headFont" href="/bylaws">SCT By-Laws</NavLink>
               </NavItem>
               <NavItem>

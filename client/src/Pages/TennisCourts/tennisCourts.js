@@ -28,10 +28,9 @@ const Courts = (props) => {
         </p>
         <a
           href="https://www.chicagoparkdistrict.com/parks-facilities/find-park-facility?search_by=keyword&keyword=tennis"
-          title="Go to instagram"
+          title="Go to Chicago Park District"
           target="_blank"
-          rel="noopener noreferrer"
-            >Find Court</a>
+          rel="noopener noreferrer">Find Court</a>
         {/* https://www.chicagoparkdistrict.com/parks-facilities/find-park-facility?search_by=keyword&keyword=tennis */}
 
       </Jumbotron>

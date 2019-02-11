@@ -8,6 +8,7 @@
     transform: rotateY(-2deg) rotateX(2deg) scale(1.08);
     transition: transform 0.75s ease-out;
     mix-blend-mode: normal;
-    opacity:0.95
+    opacity:0.85
     }  
-    
+
+  

@@ -8,6 +8,7 @@ import Courts from "./Pages/TennisCourts/tennisCourts";
 import Sponsors from "./Pages/Sponsors/Sponsors";
 import ByLaws from "./Pages/ByLaws/ByLaws";
 import Social from "./Pages/Social/Social";
+import Programs from "./Pages/Programs/Programs";
 import './App.css';
 
 const App = () => (
@@ -23,6 +24,7 @@ const App = () => (
         <Route exact path="/sponsors" component={Sponsors} />
         <Route exact path="/bylaws" component={ByLaws} />
         <Route exact path="/social" component={Social} />
+        <Route path="/programs" component={Programs} />
         <Route component={NoMatch} />
       </Switch>
     </div>

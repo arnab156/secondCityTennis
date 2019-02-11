@@ -1,6 +1,6 @@
 import React from 'react';
 import "./ByLaws.css";
-import { Container, Jumbotron } from 'reactstrap';
+import { Jumbotron } from 'reactstrap';
 
 export default class ByLaws extends React.Component {
   render() {
