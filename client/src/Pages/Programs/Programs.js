@@ -1,6 +1,6 @@
 import React from "react";
 import "./Programs.css";
-import { Container, Jumbotron } from "reactstrap";
+import { Container } from "reactstrap";
 import SummerSingles from "../../Components/SummerSingles/SS"
 
 export default class Programs extends React.Component {
