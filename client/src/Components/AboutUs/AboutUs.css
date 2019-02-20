@@ -16,6 +16,10 @@ mix-blend-mode: normal;
 opacity:0.85
 }  
 
+.instaStyle{
+    width:50px;
+}
+
 /* .headFont{
     font-family: 'Alegreya Sans SC', sans-serif;
 }   */

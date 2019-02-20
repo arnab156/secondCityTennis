@@ -1,5 +1,6 @@
 import React from 'react';
 import "./AboutUs.css";
+import Insta from "../../Pages/Social/instagram.png";
 
 export default class About extends React.Component {
   render() {
@@ -13,7 +14,15 @@ export default class About extends React.Component {
             <br/><br/>
             Second City Tennis was started in 1987 by a small group of LGBT tennis enthusiasts. Our mission is to create and support competitive and social tennis programs for the LGBTQ and allied communities and promote unity among our membership. Now at almost 1,000 members, SCT organizes a variety of programs including beginner clinics, winter indoor doubles leagues, a summer singles ladder, team tennis (similar to Davis Cup), and the Second City Tennis Classic, the largest tournament in the region sanctioned by the Gay & Lesbian Tennis Association.
             </p> 
-            <br/>
+            <p>Find us on Instagram:</p>
+            <a
+            href="https://www.instagram.com/secondcitytennis/"
+            title="Go to Instagram"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            <img className="instaStyle" key="instalogo" src={Insta} alt="instagram" />
+           </a>
         </div>
     );
   }
