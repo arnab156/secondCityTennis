@@ -31,9 +31,6 @@ export default class Navigation extends React.Component {
                 <NavLink className="headFont" href="/courts">Find Tennis Courts</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="headFont" href="/sponsors">Sponsors & Partners</NavLink>
-              </NavItem>
-              <NavItem>
                 <NavLink className="headFont" href="/programs">Progams & Events</NavLink>
               </NavItem>
               <NavItem>
@@ -41,6 +38,9 @@ export default class Navigation extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink className="headFont" href="/social">Instagram</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="headFont" href="/">Home</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

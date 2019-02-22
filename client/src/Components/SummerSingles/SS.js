@@ -1,20 +1,22 @@
 import React from 'react';
-import { Card, Button, CardText, CardBody, CardLink,
-  CardTitle, CardSubtitle } from 'reactstrap';
+import { Card, Button, CardText, CardBody, CardTitle } from 'reactstrap';
+import IMAGE from "./tennis.jpg"; 
+import { Link } from "react-router-dom"; 
+import "./SS.css";
 
 const Example = (props) => {
   return (
     <div >
       <Card>
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardTitle className="text-style text-center">{props.title}</CardTitle>
         </CardBody>
-        <img width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt=" cap very nice" />
-        <CardLink>1</CardLink>s
+        <img width="100%" src={IMAGE} alt=" cap very nice" title="cap very nice" />
         <CardBody>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Go somewhere</Button>
+          <CardText>Questions? <br/> 
+          Email <a href="mailto:summersingles@secondcitytennis.com?subject=Mail from our website"> Zdravko Coric & Eric Juarez</a>
+           </CardText>
+          <Button color="warning"><Link to="/summersingles" className="text-style-2">Read More</Link></Button>
         </CardBody>
       </Card>
     </div>

@@ -5,10 +5,27 @@
 
 .tennisContainer:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transform: rotateY(-2deg) rotateX(2deg) scale(1.08);
+    transform: rotateY(-2deg) rotateX(2deg) scale(1.03);
     transition: transform 0.75s ease-out;
     mix-blend-mode: normal;
-    opacity:0.85
+    opacity:0.95
     }  
+
+.text-style{
+    color:rgb(0,38,75);
+    font-size: 20px;
+    font-weight: bolder;
+    }  
+   
+.text-style-2{
+    color:rgb(0,38,75);
+    font-size: 15px;
+} 
+
+.text-style-2:hover{
+    color: blanchedalmond;
+    font-size: 18px;
+    font-weight: bolder;
+} 
 
   
