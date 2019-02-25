@@ -10,6 +10,7 @@ import ByLaws from "./Pages/ByLaws/ByLaws";
 import Social from "./Pages/Social/Social";
 import Programs from "./Pages/Programs/Programs";
 import SS from "./Components/SummerSingles/SS_info";
+import SD from "./Components/SummerDoubles/SD_info";
 import './App.css';
 
 const App = () => (
@@ -27,6 +28,7 @@ const App = () => (
         <Route exact path="/social" component={Social} />
         <Route exact path="/programs" component={Programs} />
         <Route exact path="/summersingles" component={SS} />
+        <Route exact path="/summerdoubles" component={SD} />
         <Route component={NoMatch} />
       </Switch>
     </div>

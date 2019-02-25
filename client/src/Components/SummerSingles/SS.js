@@ -4,7 +4,7 @@ import IMAGE from "./tennis.jpg";
 import { Link } from "react-router-dom"; 
 import "./SS.css";
 
-const Example = (props) => {
+const SummerSingles = (props) => {
   return (
     <div >
       <Card>
@@ -23,4 +23,4 @@ const Example = (props) => {
   );
 };
 
-export default Example;
+export default SummerSingles;

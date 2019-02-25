@@ -3,8 +3,9 @@ import "./Programs.css";
 import { Container, Row, Col } from "reactstrap";
 import SummerSingles from "../../Components/SummerSingles/SS";
 import SummerDoubles from "../../Components/SummerDoubles/SD";
-import WinterSingles from "../../Components/WinterSingles/WS";
+import StartRestart from "../../Components/StartRestart/SR";
 import WinterDoubles from "../../Components/WinterDoubles/WD";
+import TennisClassic from "../../Components/TennisClassic/TC";
 
 export default class Programs extends React.Component {
 
@@ -21,11 +22,20 @@ export default class Programs extends React.Component {
           </Row>
           <hr />
           <Row>
-            <Col xs="6"><WinterSingles title="Winter Singles"/></Col>
-            <Col xs="6"><WinterDoubles title="Winter Doubles"/></Col>
+            <Col xs="6"><StartRestart title="Start Restart" buttonLabel="Read More"/></Col>
+            <Col xs="6"><WinterDoubles title="Winter Doubles" buttonLabel="Read More"/></Col>
           </Row>
           <br />  
+          <Row>
+            <Col xs="6"><TennisClassic title="Second City Tennis Classic" buttonLabel="Read More"/></Col>
+            {/* <Col xs="6"><WinterDoubles title="Winter Doubles" buttonLabel="Read More"/></Col> */}
+          </Row>
+          <br/>
+          <br/>
           </Container>  
+          <br/>
+          <br/>
+          <br/>
         </Container>
     );
   }

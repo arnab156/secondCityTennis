@@ -3,7 +3,7 @@ import { Card, Button, CardText, CardBody, CardTitle, Modal, ModalHeader, ModalB
 
 import Image from "./image.jpg";
 
-class ModalExample extends React.Component {
+class StartRestart extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -29,14 +29,14 @@ class ModalExample extends React.Component {
         <img width="100%" src={Image} alt=" cap very nice" />
         <CardBody>
         <CardText>Questions? <br/> 
-          Email <a href="mailto: winterdoubles@secondcitytennis.com?subject=Mail from our website"> Ignacio Cuevas, Rob Smitherman & Sonny Thatch</a>
+          Email <a href="mailto:startrestart@secondcitytennis.com?subject=Mail from our website"> Start Restart</a>
            </CardText>
 
           <Button color="danger" onClick={this.toggle}>{this.props.buttonLabel}</Button>
           <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}>Winter Doubles</ModalHeader>
+          <ModalHeader toggle={this.toggle}>Second City Tennis Classic</ModalHeader>
           <ModalBody>
-            More Information to come this Fall!
+            More Information to come this Summer!
           </ModalBody>
           <ModalFooter>
             {/* <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '} */}
@@ -49,4 +49,4 @@ class ModalExample extends React.Component {
   );
 }
 }
-export default ModalExample;
+export default StartRestart;
