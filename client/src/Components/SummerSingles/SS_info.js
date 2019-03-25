@@ -54,6 +54,11 @@ export default class Example extends React.Component {
               <Col sm="12">
                 {/* <h4>Tab 1 Contents</h4> */}
                 <br/>
+                <p>
+                Summer Singles is our most popular program, with over 150 players joining each year. Summer Singles offers 5-6 divisions for players of all levels. Players schedule matches on their own following the rules of the program and have several milestones to complete during the season. 
+                <br/>The season begins in early May and ends in mid-August, after which Playoff matches are organized. 
+                </p>
+                <br/>
                 <p className="text-left">
                     REGISTRATION BEGINS: APRIL 2 <br/>
                     SEASON START: MAY 1 <br/>
@@ -142,9 +147,9 @@ export default class Example extends React.Component {
         </TabContent>
       </div>
 
+      <br/>
 
-
-
+      <Button className="center" color="danger"><Link to="/programs" className="text-style-2">Back to Programs</Link></Button>
 
         </Jumbotron>
        

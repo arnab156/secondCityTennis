@@ -1,31 +1,33 @@
-.tennisContainer{
-    background-color: rgb(255,212,1);
-    opacity: 0.5
+.tennisContainer {
+    background-color: rgb(255, 212, 1);
+    /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); */
+    transform: rotateY(0deg) rotateX(0deg) scale(0.95);
+    /* transition: transform 0.75s ease-out; */
+    mix-blend-mode: normal;
+    opacity: 0.95
 }
 
 .tennisContainer:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transform: rotateY(-2deg) rotateX(2deg) scale(1.03);
+    /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); */
+    transform: rotateY(-2deg) rotateX(2deg) scale(1.00);
     transition: transform 0.75s ease-out;
-    mix-blend-mode: normal;
-    opacity:0.95
-    }  
+    /* mix-blend-mode: normal; */
+    /* opacity: 0.95 */
+}
 
-.text-style{
-    color:rgb(0,38,75);
+.text-style {
+    color: rgb(0, 38, 75);
     font-size: 20px;
     font-weight: bolder;
-    }  
-   
-.text-style-2{
-    color:rgb(0,38,75);
-    font-size: 15px;
-} 
+}
 
-.text-style-2:hover{
+.text-style-2 {
+    color: rgb(0, 38, 75);
+    font-size: 15px;
+}
+
+.text-style-2:hover {
     color: blanchedalmond;
     font-size: 18px;
     font-weight: bolder;
-} 
-
-  
+}

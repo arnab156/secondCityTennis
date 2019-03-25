@@ -1,5 +1,7 @@
 import React from 'react';
 import "./Headlines.css";
+import { Link } from "react-router-dom"; 
+import {Button} from "reactstrap";
 
 export default class Headlines extends React.Component {
   render() {
@@ -9,7 +11,10 @@ export default class Headlines extends React.Component {
           <h1 className="text-black text-center headFont">HEADLINES</h1>
           <div className="typewriter">
             <h1><i>Coming Soon! Summer Singles</i></h1>
-            <p className="text-center">Summer Singles is the best thing to happen to the world!</p>
+            <p className="text-center">Summer Singles is our most popular program, with over 150 players joining each year. Summer Singles offers 5-6 divisions for players of all levels. Players schedule matches on their own following the rules of the program and have several milestones to complete during the season. 
+            <br/>
+            <Button className="center" color="danger"><Link to="/summersingles" className="text-style-2">Read More</Link></Button>
+            </p>
             <br/><br/>
           </div>
           <br/>
@@ -24,11 +29,11 @@ export default class Headlines extends React.Component {
           <br/>
           <div className="typewriter">
             <h1><i>Start Restart Tennis!</i></h1>
-            <p className="text-center">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, 
-            graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have
-            scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
-            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
+            <p className="text-center">This program provides beginning and intermediate players (and those who haven’t played in a while) a fun environment to develop skills quickly and encourage match play. 
+            <br/>
+            <Button className="center" color="danger"><Link to="/restart" className="text-style-2">Read More</Link></Button>
             </p>
+           
             <br/><br/>
           </div>
           <br/>            

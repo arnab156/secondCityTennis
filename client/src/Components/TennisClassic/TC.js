@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Button, CardText, CardBody, CardTitle, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-
+import { Link } from "react-router-dom"; 
 import Image from "./image.jpg";
 
 class StartRestart extends React.Component {
@@ -29,20 +29,22 @@ class StartRestart extends React.Component {
         <img width="100%" src={Image} alt=" cap very nice" />
         <CardBody>
         <CardText>Questions? <br/> 
-          Email <a href="mailto:startrestart@secondcitytennis.com?subject=Mail from our website"> Start Restart</a>
+          Email <a href="mailto:startrestart@secondcitytennis.com?subject=Mail from our website"> Zdravko Coric & Christine Wood</a>
            </CardText>
+           <Button color="warning"><Link to="/classic" className="text-style-2">Read More</Link></Button>
 
-          <Button color="danger" onClick={this.toggle}>{this.props.buttonLabel}</Button>
+          {/* MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL MODAL */}
+          {/* <Button color="danger" onClick={this.toggle}>{this.props.buttonLabel}</Button> */}
           <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>Second City Tennis Classic</ModalHeader>
           <ModalBody>
             More Information to come this Summer!
           </ModalBody>
           <ModalFooter>
-            {/* <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '} */}
             <Button color="secondary" onClick={this.toggle}>Cancel</Button>
           </ModalFooter>
         </Modal>
+        {/* END OF MODAL */}
         </CardBody>
       </Card>
     </div>
