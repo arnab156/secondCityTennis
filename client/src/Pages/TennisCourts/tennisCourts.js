@@ -13,7 +13,9 @@ const Courts = (props) => {
       <br/>      
       <Jumbotron>
         <Map />
+      
       </Jumbotron>
+      {/* <h2> See more courts below </h2> */}
       <br/>
     </Container>
     </div>

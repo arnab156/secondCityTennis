@@ -43,7 +43,7 @@ export default class SummerDoublesInfo extends React.Component {
               className={classnames({ active: this.state.activeTab === '2' })}
               onClick={() => { this.toggle('2'); }}
             >
-              Session Details
+              Important Dates
             </NavLink>
           </NavItem>
         </Nav>
@@ -54,47 +54,60 @@ export default class SummerDoublesInfo extends React.Component {
                 {/* <h4>Tab 1 Contents</h4> */}
                 <br/>
                 <p className="text-left">
-                Second City Tennis is proud to host the SCT Classic as part of the global GLTA tour. The tournament is typically held indoors during Market Days weekend in mid-August and attracts nearly 100 players from all around the USA and other countries. 
-               <br/>  <br/>
-               The Classic is a 3-day tournament with 4-5 divisions for singles and doubles with a standard 32 or 16 player draws. 
-               <br/><br/>
-               Registration is through GLTA.
+                The 2018 SCT Classic is an INDOOR tennis tournament that will be taking place August at the 
+                <strong>Midtown Athletic Club</strong>! The facility features world-class tennis courts(indoor hard), 
+                state-of-the-art fitness equipment, resort-style pools, luxurious spas, and more!
+                <br/>  <br/>
+                The Classic is a 3-day tournament with 4-5 divisions for singles and doubles with a standard 32 or 16 player draws. 
+                <br/><br/>
+                The tournament will be taking place during one of the best festivals in the United States, Northalsted Market Days® 
+                which is the largest street festival in the Midwest and Chicago’s most vibrant summer celebration.
+                <br/>
+                Court Surface: Indoor Hard
+                <br/>
+          
                 </p>
+
               </Col>
             </Row>
             <br/>
-              {/* <Row> */}
-              {/* <Col sm="6">
+              <Row>
+              <Col sm="6">
                 <Card body>
-                  <CardTitle>CREATE AAC ACCOUNT</CardTitle>
-                  <CardText>1) You must first create an AAC online account on the AAC website at   If you already have an AAC account, simply login using your current credentials. Current AAC members in good standing (annual membership paid) can skip step 2.<br/>
-                  Cost of Start Restart - $100 per player per 5-week session. This is non-refundable. This does NOT include your $25 AAC Annual Membership.</CardText>
-                  <Button><Link className="text-white" to="http://sportsaac.com/my-account/" target="_blank" key="createAAC">CREATE ACCOUNT</Link></Button>
+                  <CardTitle>GLTA 2019 Tournament</CardTitle>
+                  <CardText>
+                  The International LGBT Tennis Organization -The purpose of the Gay and Lesbian Tennis Alliance (GLTA) is to provide an open, safe, inclusive space and community that is committed to promoting and developing amateur tennis in the LGBT (Lesbian, Gay, Bi and Transgender) Community.
+                  <br/><br/> <strong>GLTA Board Representative: Dan - dmerrit144@gmail.com</strong>
+                  </CardText>
+                  <br/>
+                  <Button><Link className="text-white" to="https://glta.net/tournament-details/second-city-tennis-classic-2019" target="_blank" key="glta">Go to GLTA!</Link></Button>
                 </Card>
               </Col>
               <Col sm="6">
                 <Card body>
-                  <CardTitle>AAC ANNUAL FEES</CardTitle>
-                  <CardText>2) After creating your account, you must pay a $25 membership fee to join AAC if you are not already a member. Please click the "Pay AAC Membership" to complete this. This membership fee must be paid to participate in the league. <br/> Once your AAC registration is completed head to the link below to register for tennis<br/>Cost of Start Restart - $100 per player per 5-week session. This is non-refundable. This does NOT include your $25 AAC Annual Membership.</CardText>
-                  <Button><Link className="text-white" to="http://sportsaac.com/leagues/tennis/" target="_blank" key="createAAC">CREATE ACCOUNT</Link></Button>
+                  <CardTitle>About Market Days®</CardTitle>
+                  <CardText>The weekend long festival features an all day lineup of live music on 4 stages, 200+ unique vendors, 
+               arts, crafts, food and drink, DJ’s and dancing, sponsor booths, and more! Attendance approaches 200,000 people from near and far, 
+               representing all colors of the rainbow. Founded in 1980, the celebration now spans 6 blocks of North Halsted in Chicago’s Boystown/Lakeview neighborhood stretching 
+               from Addison to Belmont. America’s first recognized gay village.</CardText>
+                  <Button><Link className="text-white" to="https://www.northalsted.com/marketdays/" target="_blank" key="market days">Go to Market Days®!</Link></Button>
                 </Card>
-              </Col> */}
-            {/* </Row> */}
+              </Col>
+            </Row>
           </TabPane>
           {/* SECOND TAB */}
           <TabPane tabId="2">
             <Row>
               <Col sm="6">
                 <Card body>
-                  <CardTitle>Sessions</CardTitle>
+                  {/* <CardTitle>Important Dates</CardTitle> */}
                   <CardText className="text-left">
-                  Session 1 - TBA
+                  <p>Registration opens: Fri, 2018-12-14</p>
                   <br/>
-                  Session 2 - TBA
+                  <p>Tournament Start Date: Fri, 2019-08-09</p>
                   <br/>
-                  Session 3 - TBA
+                  <p>Tournament End Date: Sun, 2019-08-11</p>
                   <br/>
-                  Session 4 - TBA
                     </CardText>
                   {/* <Button><Link to="http://assets.usta.com/assets/1/15/ITF%20-%20RoT%202010.pdf" target="_blank" key="USTA Rule" className="text-white">USTA Rules</Link></Button> */}
                 </Card>

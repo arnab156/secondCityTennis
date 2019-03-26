@@ -29,7 +29,7 @@ class StartRestart extends React.Component {
         <img width="100%" src={Image} alt=" cap very nice" />
         <CardBody>
         <CardText>Questions? <br/> 
-          Email <a href="mailto:startrestart@secondcitytennis.com?subject=Mail from our website"> Zdravko Coric & Christine Wood</a>
+          Email <a href="mailto:zchicago82@gmail.com?subject=Mail from our website - Summer Classic"> Zdravko Coric</a>
            </CardText>
            <Button color="warning"><Link to="/classic" className="text-style-2">Read More</Link></Button>
 
